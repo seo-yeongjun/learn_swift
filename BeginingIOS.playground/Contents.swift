@@ -43,3 +43,27 @@ let a = 3;
 let b = 2.0;
 print(a*Int(b))
 //스위프트는 타입에 안전한 언어이기 때문에, 이렇게 명시해야 한다.
+
+
+
+
+/**
+ 2일차
+ 2022 04 24
+ **/
+var boolean = true
+//boolean 타입
+boolean.toggle()
+// .toggle()을 이용하여 not으로 만들 수 있다.
+boolean = !boolean
+// !도 마찬가지로 not을 의미
+print(boolean)
+
+let name = "영준"
+let age = 25
+var introduce = "My name is "+name+"and i'm "+String(age)+"years old."
+//마찬가지로 string intger끼리 합칠 때 형변환에 유의해야 한다.
+print(introduce)
+introduce = "My name is \(name) and i'm \(age) years old."
+// 문자열에 변수를 사용할 때 \()를 사용할 수 있다.
+print(introduce)
